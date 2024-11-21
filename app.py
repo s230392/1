@@ -11,7 +11,7 @@ st.write(' - 테스트 데이터 : 350건')
  st.write(' - 모델 정확도 : ')
 
 
-col1, col2, col3, col4, col5, col6 = st.columns(6 )      
+col1, col2, col3, col4, col5, col6 = st.columns(6)      
 with col1:
       st.subheader('데이터시각화1')
       st.image('____________' ) 
@@ -35,11 +35,11 @@ st.subheader('모델 활용')
 st.write('**** 오늘의 수면 시간을 입력해주세요')
 
 a = st.number_input(' 오늘의 수면 시간을 입력해주세요 ', value=0) 
-b = st.number_input(' 오늘의 수면 시간을 입력해주세요 ', value=0) 
+b = st.number_input(' 오늘의 공부 시간을 입력해주세요 ', value=0) 
 c = st.number_input(' 오늘의 수면 시간을 입력해주세요 ', value=0) 
-d = st.number_input(' 오늘의 수면 시간을 입력해주세요 ', value=0) 
-e = st.number_input(' 오늘의 수면 시간을 입력해주세요 ', value=0) 
-f = st.number_input(' 오늘의 수면 시간을 입력해주세요 ', value=0) 
+d = st.number_input(' 오늘 인터넷 사용 시간을 입력해주세요 ', value=0) 
+e = st.number_input(' 오늘 마신 카페인 양을 입력해주세요 ', value=0) 
+f = st.number_input(' 오늘 운동 시간을 입력해주세요 ', value=0) 
 if st.button('수면의질 예측'):             
         input_data = [[ a,b,c,d,e,f ]]          
         p = model.predict(input_data)      
