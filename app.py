@@ -31,9 +31,6 @@ with col6:
       st.subheader('데이터시각화5')
       st.image('____________')
 
-st.subheader('모델 활용')
-st.write('**** 오늘의 수면 시간을 입력해주세요')
-
 a = st.number_input(' 오늘의 수면 시간을 입력해주세요 ', value=0) 
 b = st.number_input(' 오늘의 공부 시간을 입력해주세요 ', value=0) 
 c = st.number_input(' 오늘의 수면 시간을 입력해주세요 ', value=0) 
