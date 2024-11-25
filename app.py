@@ -9,6 +9,7 @@ st.write(' - 학습 데이터 출처 : https://www.kaggle.com/datasets/arsalanja
 st.write(' - 훈련 데이터 : 150건')
 st.write(' - 테스트 데이터 : 350건')
 st.write(' - 모델 정확도 : 0.9')
+st.write(' - 수면의 질 평균값: 5.28')
 
 
 col1, col2, col3, col4, col5, col6 = st.columns(6)      
