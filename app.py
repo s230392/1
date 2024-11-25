@@ -28,7 +28,7 @@ with col5:
       st.subheader('데이터시각화5')
       st.image('시각화 파일5.png')
 with col6:
-      st.subheader('데이터시각화5')
+      st.subheader('데이터시각화6')
       st.image('시각화 파일6.png')
 
 a = st.number_input(' 오늘의 수면 시간을 입력해주세요 ', value=0) 
