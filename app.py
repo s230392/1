@@ -4,7 +4,7 @@ import joblib
 model = joblib.load('linear_regression_model.pkl') 
 
 st.title('수면의 질 예측 에이전트')
-st.subheader(' - 기계학습 알고리즘 : 로지스틱 회귀 ')
+st.subheader(' - 기계학습 알고리즘 : 선형 회귀 ')
 st.write(' - 학습 데이터 출처 : https://www.kaggle.com/datasets/arsalanjamal002/student-sleep-patterns/data')
 st.write(' - 훈련 데이터 : 150건')
 st.write(' - 테스트 데이터 : 350건')
