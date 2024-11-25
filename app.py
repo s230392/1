@@ -1,7 +1,7 @@
 import streamlit as st
 
 import joblib
-model = joblib.load('logistic_regression_model.pkl') 
+model = joblib.load('linear_regression_model.pkl') 
 
 st.title('수면의 질 예측 에이전트')
 st.subheader(' - 기계학습 알고리즘 : 로지스틱 회귀 ')
