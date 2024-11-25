@@ -14,7 +14,7 @@ st.write(' - 테스트 데이터 : 350건')
 col1, col2, col3, col4, col5, col6 = st.columns(6)      
 with col1:
       st.subheader('데이터시각화1')
-      st.image('____________' ) 
+      st.image('시각화 파일1.png' ) 
 with col2:
       st.subheader('데이터시각화2')
       st.image('____________')
@@ -27,16 +27,12 @@ with col4:
 with col5:
       st.subheader('데이터시각화5')
       st.image('____________')
-with col6:
-      st.subheader('데이터시각화5')
-      st.image('____________')
 
 a = st.number_input(' 오늘의 수면 시간을 입력해주세요 ', value=0) 
 b = st.number_input(' 오늘의 공부 시간을 입력해주세요 ', value=0) 
-c = st.number_input(' 오늘의 수면 시간을 입력해주세요 ', value=0) 
-d = st.number_input(' 오늘 인터넷 사용 시간을 입력해주세요 ', value=0) 
-e = st.number_input(' 오늘 마신 카페인 양을 입력해주세요 ', value=0) 
-f = st.number_input(' 오늘 운동 시간을 입력해주세요 ', value=0) 
+c = st.number_input(' 오늘 인터넷 사용 시간을 입력해주세요 ', value=0) 
+d = st.number_input(' 오늘 마신 카페인 양을 입력해주세요 ', value=0) 
+e = st.number_input(' 오늘 운동 시간을 입력해주세요 ', value=0) 
 if st.button('수면의질 예측'):             
         input_data = [[ a,b,c,d,e,f ]]          
         p = model.predict(input_data)      
