@@ -27,7 +27,7 @@ with col4:
 with col5:
       st.subheader('데이터시각화5')
       st.image('시각화 파일5.png')
- with col6:
+with col6:
       st.subheader('데이터시각화5')
       st.image('시각화 파일6.png')
 
